@@ -1,0 +1,75 @@
+body{
+	font-family: helvetica,sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-weight: 300;
+	line-height: 1.6;
+	background-color: #ffffff;
+	color: #FFF;
+}
+div{
+	display: block;
+}
+#main{
+	margin: 0 auto;
+}
+#main_background{
+	position:fixed;
+	top: 0;
+	left: 0;
+	width:100%;
+	height:100%;
+	min-width: 1000px;
+	z-index:-10;
+	zoom: 1;
+	background-color: rgba(0,0,0,0.2);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 0;
+}
+#header{
+	height: 70px;
+	background-color: rgba(0,0,0,0.4);
+}
+#header_inner{
+	position: relative;
+	margin: auto;
+	padding: 20px 20px;
+	max-width: 1790px;
+	text-align: center;
+}
+#logo{
+	font-size: 18px;
+	color: #FFF;
+	letter-spacing: 1.2px;
+}
+#bodyer{
+	position: relative;
+	padding: 130px 20px 5px;
+	line-height: 1.5;
+}
+#bodyer h1{
+	font-size: 40px;
+	text-shadow: 0 0 7px rgba(0,0,0,.6);
+}
+#bodyer h2{
+	font-size: 20px;
+	text-shadow: 0 0 4px rgba(0,0,0,.6);
+	padding: 5px 0 10px;
+}
+#btn{
+	margin-top: 20px;
+	border: 2px white solid;
+	border-radius: 10px;
+	padding: 15px;
+	text-align: center;
+	color: white;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4),0 1px 2px rgba(0,0,0,.2);
+}
+#btn:hover{
+	background-color: rgba(255,255,255,0.5);
+}
+a{
+	text-decoration: none;
+}
